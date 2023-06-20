@@ -1,1 +1,2 @@
 This is the dummy file which I will commit separately
+Now I will try to commit without message and use Vim
