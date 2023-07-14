@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: my-cool-font;
+    src: url(./Roboto-ThinItalic.ttf);
+}
+#para-1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#para-2{
+    font-family:'Times New Roman', Times, serif;
+}
+#para-3{
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#para-4{
+    font-family: 'Roboto', sans-serif;
+}
+#para-5{
+    font-family: my-cool-font, sans-serif;
+}
+#para-6{
+    font-style: italic;
+}
+#para-7{
+    letter-spacing: -1px;
+}
+#para-8{
+    letter-spacing: 0.5rem;
+}
+#para-9{
+    line-height: 1.5rem;
+}
+#para-10{
+    text-transform: capitalize;
+}
+#para-11{
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 
+    0 0 20px orange,
+    0 0 10px #FC0,
+    0 0 1px yellow;
+}
+.overflowing {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
