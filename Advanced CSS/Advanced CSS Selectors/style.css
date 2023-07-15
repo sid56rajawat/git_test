@@ -1,0 +1,34 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+*{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: aliceblue;
+    width: 90%;
+    height: 90vh;
+}
+.parent > div{ /* same as .child */
+    background-color: lightgreen;
+    width: 90%;
+    height: 30%;
+}
+.child > div{ /* same as .grand-child or .parent > div > div */
+    background-color: bisque;
+    width: 90%;
+    height: 30%;
+}
+.group1 + div{ /* Applies to first sibling of .group1 */
+    background-color: turquoise;
+}
+.group1 ~ div{ /* Applies to all siblings of .group1 */
+    background-color: turquoise;
+}
+body div{
+    margin: auto;
+}
